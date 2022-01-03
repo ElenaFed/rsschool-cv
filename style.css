@@ -110,3 +110,7 @@ ul.list  {
   border: 0;
   text-align: left;
 }
+
+.full_page {
+  width: 100%;
+}
