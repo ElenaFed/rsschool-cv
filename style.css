@@ -1,0 +1,116 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  src:  url ("assets/font/Montserrat.ttf");
+  font-size: 16px;
+  width: 80%;
+  margin: 20px auto;
+}
+.main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: right;
+  
+}
+.main-menu > li {
+  display: inline-flex;
+}
+.main-menu > li + li {
+  margin-left: 20px;
+}
+.main-menu > li > a {
+  padding: 0 0 20px 0;
+  position: relative;
+  text-transform: uppercase;   
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  text-decoration: none;   
+}
+.title_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.title_name2 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.photo {
+  float: right;
+  margin: 5px;
+  border-radius: 10%;
+  width: 20%;
+}
+.logo {
+  float: left;
+  margin: 5px;
+  width: 20%;
+}
+.list {
+  margin: 0;
+}
+
+ul.list  {
+  list-style: none;
+	margin: 0;
+  padding: 2px 20px 20px;
+}
+
+.p {
+  padding: 2px 0px 2px 0px;
+  margin: 0px 2px;
+  line-height: 1.5;
+}
+
+.column-center {
+  background-color: rgb(235, 230, 230);
+  height: auto;
+  margin-top: 20px;
+  padding: 10px 2px 10px 2px;
+  border: 0;
+  text-align: center;
+}
+
+.column-right {
+  background-color: rgb(235, 230, 230);
+  height: auto;
+  margin-top: 20px;
+  padding: 10px 2px 10px 2px;
+  border: 0;
+  text-align: right;
+}
+
+.column-left {
+  background-color: rgb(235, 230, 230);
+  height: auto;
+  margin-top: 20px;
+  padding: 10px 2px 10px 2px;
+  border: 0;
+  text-align: left;
+}
+
+.full_page {
+  width: 100%;
+}
